@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">API work</string>
+    <string name="posts_from_api">Posts from API</string>
+    <string name="load_posts">Load Posts</string>
 </resources>
