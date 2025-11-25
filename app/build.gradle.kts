@@ -45,4 +45,16 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    // RecyclerView
+    implementation(libs.androidx.recyclerview)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.android)
+
+    // Lifecycle runtime (for lifecycleScope)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
 }
