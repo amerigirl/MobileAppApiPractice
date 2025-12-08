@@ -46,8 +46,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.androidx.activity.v193)
     // RecyclerView
     implementation(libs.androidx.recyclerview)
+
 
     // Retrofit
     implementation(libs.retrofit)
